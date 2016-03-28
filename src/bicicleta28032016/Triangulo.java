@@ -18,5 +18,9 @@ public class Triangulo extends FiguraGeometrica {
         this.lado = lado;
     }
     
+    @Override
+    public double area(){
+        return 0;
+    }
  
 }
