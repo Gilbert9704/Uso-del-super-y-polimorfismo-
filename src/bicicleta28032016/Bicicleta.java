@@ -33,4 +33,20 @@ public class Bicicleta {
             resultado += t.area();
         return resultado;
     }
+    
+    /*
+    segunda opcion
+    private FiguraGeometrica[] componentes;
+    
+    public Bicicleta(Circulo[] ruedas, Circulo plato, Triangulo[] marco, double area) {
+        this.componentes = componentes;
+    }
+    
+    public double area(){
+    double resultado = 0;
+    for(FiguraGeometrica c : this.componentes)
+        resultado += c.area();
+    return resultado;
+    }
+    */
 }
